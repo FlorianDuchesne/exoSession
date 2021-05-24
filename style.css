@@ -1,0 +1,88 @@
+#panier {
+  width: 320px;
+  height: auto;
+  border-radius: 20px;
+  background-color: cadetblue;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1em;
+  padding: 1em;
+  color: whitesmoke;
+}
+
+#panier .fa-shopping-cart {
+  width: 100%;
+  font-size: xx-large;
+  text-align: center;
+  padding: 0.2em;
+}
+
+#panier i {
+  padding: 1em;
+}
+
+#panier ul {
+  padding: 1em;
+}
+
+#message {
+  margin: 1em;
+  padding: 1em;
+  color: crimson;
+}
+
+#panier a {
+  color: darkslategray;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  background-color: cadetblue;
+  border-radius: 10px;
+  padding: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  margin: 0em 1em;
+}
+
+#submit {
+  text-decoration: none;
+  border: none;
+  background-color: darkslategray;
+  color: whitesmoke;
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 3px;
+  margin-top: 1em;
+}
+
+main h1 {
+  margin-bottom: 1em;
+}
+
+table {
+  margin-top: 2em;
+}
+
+th {
+  padding: 1em;
+  background-color: cadetblue;
+  color: whitesmoke;
+}
+
+td {
+  padding: 1em;
+  border-bottom: 1px solid darkslategray;
+  color: darkslategray;
+}
